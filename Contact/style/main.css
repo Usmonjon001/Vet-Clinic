@@ -1,0 +1,868 @@
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Book.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Book.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-Book.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Demi.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Demi.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-Demi.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-Demi.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-DemiObl.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-DemiObl.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-DemiObl.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-DemiObl.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-BookObl.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-BookObl.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-BookObl.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-BookObl.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-BoldObl.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-BoldObl.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-BoldObl.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-BoldObl.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Bold.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Bold.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-Bold.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Heavy.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Heavy.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-Heavy.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-HeavyObl.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-HeavyObl.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-HeavyObl.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-HeavyObl.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-ExtraBold.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-ExtraBold.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-ExtraBoldObl.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-ExtraBoldObl.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-ExtraBoldObl.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-ExtraBoldObl.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-LightObl.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-LightObl.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-LightObl.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-LightObl.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Light.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Light.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-Light.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-Medium.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-Medium.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-Medium.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-MediumObl.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-MediumObl.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-MediumObl.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-MediumObl.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-BoldObl.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-BoldObl.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-BoldObl.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-BoldObl.ttf") format("truetype");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-Bold.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-Bold.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-Bold.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Extra Bold Ital';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-ExtraBoldObl.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-ExtraBoldObl.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-ExtraBoldObl.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-ExtraBoldObl.ttf") format("truetype");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Medium.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-Medium.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-Medium.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Extra';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-ExtraBold.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-ExtraBold.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-MediumObl.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPT-MediumObl.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPT-MediumObl.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPT-MediumObl.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-BookObl.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-BookObl.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-BookObl.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-BookObl.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-Book.eot");
+  src: url("../font/transfonter.org-20201224-125507/FuturaPTCond-Book.eot?#iefix") format("embedded-opentype"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-Book.woff") format("woff"), url("../font/transfonter.org-20201224-125507/FuturaPTCond-Book.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Futura PT', sans-serif;
+  background: #F9F8F8 url(../image/bg@2x.png);
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6, p, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  background: #F9F8F8;
+  padding: 6px;
+}
+
+.headernav-ComInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 12px;
+  background: #F9F8F8;
+}
+
+.headernav-ComInfo--leftcolumn {
+  margin-left: 100px;
+}
+
+.headernav-ComInfo--leftcolumn__link {
+  font-style: normal;
+  font-weight: 500;
+  position: relative;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+}
+
+.headernav-ComInfo--leftcolumn__link:before {
+  content: '';
+  background-image: url("../image/header/house.svg");
+  position: absolute;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 0px;
+  bottom: 0;
+  right: auto;
+  left: -25px;
+  width: 14px;
+  height: 14px;
+  background-color: none;
+  border-radius: 0;
+}
+
+.headernav-ComInfo-centerColumn__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  padding: 12px;
+  position: relative;
+}
+
+.headernav-ComInfo-centerColumn__link:first-child:before {
+  content: '';
+  background-image: url("../image/header/phone.svg");
+  position: absolute;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 0;
+  bottom: 0;
+  right: auto;
+  left: -9px;
+  width: 14px;
+  height: 14px;
+  background-color: none;
+  border-radius: 0;
+}
+
+.headernav-ComInfo-centerColumn__link:nth-child(2):before {
+  content: '';
+  background-image: none;
+  position: absolute;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 0;
+  bottom: 0;
+  right: auto;
+  left: 0px;
+  width: 6px;
+  height: 6px;
+  background-color: #FFBD54;
+  border-radius: 50%;
+}
+
+.headernav-ComInfo-centerColumn__link:nth-child(3):before {
+  content: '';
+  background-image: none;
+  position: absolute;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 0;
+  bottom: 0;
+  right: auto;
+  left: 0px;
+  width: 6px;
+  height: 6px;
+  background-color: #FFBD54;
+  border-radius: 50%;
+}
+
+.headernav-ComInfo-centerColumn__link:hover {
+  color: #FFBD54;
+}
+
+.headernav-ComInfo-centerColumn__link:active {
+  color: #333;
+  opacity: 0.5;
+}
+
+.headernav-ComInfo--rightColumn__date {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+  display: inline-block;
+  padding: 9px;
+  position: relative;
+}
+
+.headernav-ComInfo--rightColumn__date:first-child:before {
+  content: '';
+  background-image: url("../image/header/calendar.svg");
+  position: absolute;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 0;
+  bottom: 0;
+  right: auto;
+  left: -9px;
+  width: 14px;
+  height: 14px;
+  background-color: none;
+  border-radius: 0;
+}
+
+.headerNavigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background-color: #fff;
+  display: flex;
+}
+
+.headerNavigation-logo {
+  position: absolute;
+  left: -80px;
+}
+
+.headerNavigation-logo__image {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 178px;
+  height: 87px;
+}
+
+.headerNavigation-menu {
+  padding-left: 10%;
+}
+
+.headerNavigation-menu__item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  padding: 20px 25px;
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  position: relative;
+}
+
+.headerNavigation-menu__item:before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  background-color: #F0FFA2;
+  width: 0;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 1px;
+  margin: 0 auto;
+}
+
+.headerNavigation-menu__item:hover:before {
+  width: 100%;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+.headerNavigation-menu__item:hover {
+  color: #FFBD54;
+}
+
+.headerNavigation-menu__item:active {
+  color: #333;
+  opacity: 0.5;
+}
+
+.button-common__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  color: #333333;
+  position: relative;
+  padding: 20px;
+  display: inline-block;
+}
+
+.button-common__link:before {
+  content: '';
+  background-image: url("../image/header/pet.svg");
+  position: absolute;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 0;
+  bottom: 0;
+  right: auto;
+  left: -13px;
+  width: 23px;
+  height: 21px;
+  background-color: none;
+  border-radius: 0;
+}
+
+.button-common__link:hover {
+  color: #FFBD54;
+}
+
+.button-common__link:active {
+  opacity: 0.5;
+  color: #333;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section1-leftColumn {
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section1-leftColumn__heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+
+.section1-leftColumn__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+  margin-top: 27px;
+}
+
+.section1-leftColumn--CompanyInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 117px;
+}
+
+.section1-leftColumn--CompanyInfo-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 30.3%;
+}
+
+.section1-leftColumn--CompanyInfo-card__img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.section1-leftColumn--CompanyInfo-card__span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+  display: block;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 10px;
+}
+
+.section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  padding: 100px;
+  background-image: url("../image/section2/Group 22.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.section2-text {
+  text-align: center;
+  margin-top: 250px;
+}
+
+.section2-text__paragraph {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  color: #333333;
+}
+
+.section2-text__paragraph:before {
+  content: '';
+  background-image: url("../image/section2/lupa.svg");
+  position: absolute;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 50px;
+  bottom: 0;
+  right: 0;
+  left: 130px;
+  width: 100px;
+  height: 100px;
+  background-color: none;
+  border-radius: 0;
+}
+
+.section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.section3-rightcolumn {
+  width: 65%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-height: 466px;
+  position: relative;
+}
+
+.section3-rightcolumn::before {
+  content: '';
+  background-image: url("../image/section3/dog.png");
+  position: absolute;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: -700px;
+  bottom: 0;
+  right: auto;
+  left: 50px;
+  width: 443px;
+  height: 324px;
+  background-color: none;
+  border-radius: 0;
+}
+
+.section3-rightcolumn__map {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 466px;
+}
+
+.section3-leftcolumn {
+  width: 35%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.section3-leftcolumn__image {
+  width: 100%;
+  min-height: 466px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 466px;
+}
+
+.footerMain {
+  margin-top: 200px;
+  background: #F3F3F3;
+  border: 1px solid #EBEBEB;
+  padding: 62px 0 30px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-firstColumn {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.footer-firstColumn__logo {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.footer-firstColumn-unordered {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-firstColumn-unordered__list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+.footer-firstColumn-unordered__list:hover {
+  color: #FFBD54;
+}
+
+.footer-firstColumn-unordered__list:active {
+  opacity: 0.5;
+  color: #333;
+}
+
+.footer-firstColumn-address {
+  position: relative;
+}
+
+.footer-firstColumn-address:before {
+  content: '';
+  background-image: url("../image/header/house.svg");
+  position: absolute;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: -20px;
+  bottom: 0;
+  right: auto;
+  left: -25px;
+  width: 14px;
+  height: 14px;
+  background-color: none;
+  border-radius: 0;
+}
+
+.footer-firstColumn-date__day {
+  display: block;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.footer-firstColumn-date__day:first-child:before {
+  content: '';
+  background-image: url("../image/header/calendar.svg");
+  position: absolute;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 0;
+  bottom: 0;
+  right: auto;
+  left: -25px;
+  width: 14px;
+  height: 14px;
+  background-color: none;
+  border-radius: 0;
+}
+
+.footer-firstColumn-phone__number {
+  display: block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  margin-bottom: 14px;
+  position: relative;
+}
+
+.footer-firstColumn-phone__number:first-child:before {
+  content: '';
+  background-image: url("../image/header/phone.svg");
+  position: absolute;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  top: 0;
+  bottom: 0;
+  right: auto;
+  left: -25px;
+  width: 14px;
+  height: 14px;
+  background-color: none;
+  border-radius: 0;
+}
+
+.footer-firstColumn-phone__number:hover {
+  color: #FFBD54;
+}
+
+.footer-firstColumn-phone__number:active {
+  opacity: 0.5;
+  color: #333;
+}
+
+.footer-secondcolumn {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 28px;
+}
+
+.footer-secondcolumn__copyright {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5C5C5C;
+}
+/*# sourceMappingURL=main.css.map */
