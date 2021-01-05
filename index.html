@@ -107,7 +107,13 @@
             <div class="section2-cardContainer">
 
                 <!-- Box1 -->
+
+                <div class="section2-cardContainer--leftabsolute">
+                    <a href="#"> <img src="./image/section1/left.svg" alt="" class="section2-cardContainer--rightabsolute__image"> </a>
+                </div>
+
                 <div class="section2-cardContainer-card">
+
                     <img src="./image/section1/doctorMan.svg" alt="cardlogo" class="section2-cardContainer-card__Image">
                     <h6 class="section2-cardContainer-card__text">
                         Первичный осмотр
@@ -158,6 +164,10 @@
                         Первичный осмотр
                     </h6>
                 </div>
+
+                <div class="section2-cardContainer--rightabsolute">
+                    <a href="#"><img src="./image/section1/right.svg" alt="" class="section2-cardContainer--rightabsolute__image"></a>
+                </div>
             </div>
 
             <div class="section2-BigCard">
@@ -195,7 +205,7 @@
                     Будь в курсе событий
                 </h1>
                 <form action="https://echo.htmlacademy.ru" id="S3form" class="section3-function--forms">
-                    <input type="email" id="S3form" class="section3-function--forms__input" placeholder="Укажите Ваш email адрес">
+                    <input type="email" id="S3form" class="section3-function--forms__input" name="email" placeholder="Укажите Ваш email адрес">
                     <button type="submit" value="submit" class="section3-function--forms__button">Подписаться</button>
                 </form>
                 <img src="./image/section2/dogInInput.png" id="S3form" alt="" class="section3-function__absolute">
@@ -291,17 +301,17 @@
         </div>
 
         <div class="section5-section5Form">
-            <form action="https://html.academy.ru" class="section5-section5Form-form">
+            <form action="https://echo.htmlacademy.ru" class="section5-section5Form-form">
                 
                 <h1 class="section5-section5Form-form__heading">Обратная связь</h1>
                 <p class="section5-section5Form-form__paragraph">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
 
-                <input type="text" class="section5-section5Form-form__input" placeholder="Ваше имя">
-                <input type="email" class="section5-section5Form-form__input" placeholder="Email для обратной связи">
+                <input type="text" class="section5-section5Form-form__input" name="Name" placeholder="Ваше имя">
+                <input type="email" class="section5-section5Form-form__input" name="Email" placeholder="Email для обратной связи">
 
                 <div class="section5-section5Form-form-textarea">
                     <label for="textarea" class="section5-section5Form-form-textarea__label">Опишите Ваш вопрос.</label>
-                    <textarea name="" id="textarea" cols="30" rows="10" class="section5-section5Form-form-textarea__textarea" placeholder="Например: в каком возрасте можно прививать от бешенства?"></textarea>
+                    <textarea name="Text" id="textarea" cols="30" rows="10" class="section5-section5Form-form-textarea__textarea" placeholder="Например: в каком возрасте можно прививать от бешенства?"></textarea>
                 </div>
 
                 <button class="section5-section5Form-form__button">Задать нам вопрос</button>

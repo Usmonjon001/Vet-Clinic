@@ -611,31 +611,45 @@ h1,h2,h3,h4,h5,h6,a,p{
         align-items: flex-start;
         margin-top: 80px;
         position: relative;
-        &::before{
-            content: '';
+        &--rightabsolute{
             position: absolute;
-            top: 50px;
-            bottom: 0;
-            left: -50px;
-            background-image: url('../image/section1/left.svg');
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 50px;
-            height: 50px;
-        }
-        &::after{
-            content: '';
-            position: absolute;
-            top: 50px;
-            bottom: 0;
-            right: -50px;
-            background-image: url('../image/section1/right.svg');
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 50px;
-            height: 50px;
-            transition: all ease 0.5s;
+            top: 40%;
+            bottom: 0px;
+            right: -80px;
+            min-width: 50px;
+            max-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &__image{
+                object-fit: contain;
+            }
             &:hover{
+                background-color: #fff;
+            }
+            &:active{
+                opacity: 0.5;
+                background-color: #fff;
+            }
+        }
+        &--leftabsolute{
+            position: absolute;
+            top: 40%;
+            bottom: 0px;
+            left: -80px;
+            min-width: 50px;
+            max-height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            &__image{
+                object-fit: contain;
+            }
+            &:hover{
+                background-color: #fff;
+            }
+            &:active{
+                opacity: 0.5;
                 background-color: #fff;
             }
         }
@@ -958,7 +972,7 @@ h1,h2,h3,h4,h5,h6,a,p{
             width: 100%;
             box-sizing: border-box;
             display: block;
-            height: 672px;
+            height: 704px;
             border: none;
         }
     }
@@ -999,6 +1013,7 @@ h1,h2,h3,h4,h5,h6,a,p{
                 border: 1px solid orange;
                 margin-top: 14px;
                 background-color: #fff;
+                padding: 16px 22px;
                 &__label{
                     font-style: normal;
                     font-weight: normal;
